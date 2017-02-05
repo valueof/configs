@@ -1,13 +1,12 @@
 Checklist for a new computer:
 
+  0. Tunnel Bear
   1. 1Password
   2. Bear
   3. XCode and its command-line tools
-  4. Homebrew
-  5. Git
-  4. VIM
-  5. Fira Code font for the Terminal
-  6. Disconnect for Safari
+  4. Fira Code
+  5. Terminal: homebrew, git, and vim
+  6. Safari: disconnect
   7. Sticker to cover the camera
 
 Charted checklist:
