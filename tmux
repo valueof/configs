@@ -1,7 +1,6 @@
-unbind C-b
+unbind C-a
 
 bind r source-file ~/.tmux.conf \; display "Reloaded!"
-bind C-a send-prefix
 bind | split-window -h
 bind - split-window -v
 
@@ -18,7 +17,6 @@ bind -r J resize-pane -D 5
 bind -r K resize-pane -U 5
 bind -r L resize-pane -R 5
 
-set -g prefix C-a
 set -s escape-time 1
 set -g base-index 1
 setw -g pane-base-index 1
@@ -29,3 +27,5 @@ set -g status-style fg=white,bg=black
 
 set -g status-right "[%R]"
 set -g status-justify centre
+
+set -g default-command "reattach-to-user-namespace -l /bin/bash"
